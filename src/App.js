@@ -2,10 +2,16 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./styles.css";
 import Counter from "./01/Counter";
 import UserList from "./01/UserList";
+import Timer from "./04/Timer";
+import SearchUserList from "./04/SearchUserList";
+import ThemeSwitch from "./04/ThemeSwitch";
 
 const routes = [
   ["01 Counter", Counter],
-  ["01 UserList", UserList]
+  ["01 UserList", UserList],
+  ["04 Timer", Timer],
+  ["04 SearchUserList", SearchUserList],
+  ["04 ThemeSwitch", ThemeSwitch]
 ];
 
 const Empty = () => "";
