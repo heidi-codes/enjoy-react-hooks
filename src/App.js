@@ -9,6 +9,8 @@ import UseCounter from "./06/UseCounter";
 import UseAsync from "./06/UseAsyncSample";
 import UseScroll from "./06/UseScroll";
 import BlogList from "./06/BlogList";
+import PureRedux from "./07/PureRedux";
+import ReduxCounter from "./07/ReduxCounter";
 
 const routes = [
   ["01 Counter", Counter],
@@ -19,7 +21,9 @@ const routes = [
   ["06 UseCounter", UseCounter],
   ["06 UseAsync", UseAsync],
   ["06 UseScroll", UseScroll],
-  ["06 BlogList", BlogList]
+  ["06 BlogList", BlogList],
+  ["07 PureRedux", PureRedux],
+  ["07 ReduxCounter", ReduxCounter]
 ];
 
 const Empty = () => "";
