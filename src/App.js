@@ -14,6 +14,7 @@ import ReduxCounter from "./07/ReduxCounter";
 import PriceInput from "./08/PriceInput";
 import SearchBox from "./08/SearchBox";
 import FilterList from "./08/FilterList";
+import ArticleView from "./09/ArticleView";
 
 const routes = [
   ["01 Counter", Counter],
@@ -29,7 +30,8 @@ const routes = [
   ["07 ReduxCounter", ReduxCounter],
   ["08 FilterList", FilterList],
   ["08 SearchBox", SearchBox],
-  ["08 PriceInput", PriceInput]
+  ["08 PriceInput", PriceInput],
+  ["09 ArticleView", ArticleView]
 ];
 
 const Empty = () => "";
