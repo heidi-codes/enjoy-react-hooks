@@ -11,6 +11,9 @@ import UseScroll from "./06/UseScroll";
 import BlogList from "./06/BlogList";
 import PureRedux from "./07/PureRedux";
 import ReduxCounter from "./07/ReduxCounter";
+import PriceInput from "./08/PriceInput";
+import SearchBox from "./08/SearchBox";
+import FilterList from "./08/FilterList";
 
 const routes = [
   ["01 Counter", Counter],
@@ -23,7 +26,10 @@ const routes = [
   ["06 UseScroll", UseScroll],
   ["06 BlogList", BlogList],
   ["07 PureRedux", PureRedux],
-  ["07 ReduxCounter", ReduxCounter]
+  ["07 ReduxCounter", ReduxCounter],
+  ["08 FilterList", FilterList],
+  ["08 SearchBox", SearchBox],
+  ["08 PriceInput", PriceInput]
 ];
 
 const Empty = () => "";
