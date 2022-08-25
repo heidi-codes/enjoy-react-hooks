@@ -28,6 +28,7 @@ import MyRouter from "./15/MyRouter";
 import NestedRouting from "./15/NestedRouting";
 import TabsPage from "./15/TabsPage";
 import RouterAuth from "./15/RouterAuth";
+import LazyLoad from "./16/LazyLoad";
 
 const routes = [
   ["01 Counter", Counter],
@@ -57,7 +58,8 @@ const routes = [
   ["15 MyRouter", MyRouter],
   ["15 NestedRouting", NestedRouting],
   ["15 TabsPage", TabsPage, "/:activeTab?"],
-  ["15 RouterAuth", RouterAuth]
+  ["15 RouterAuth", RouterAuth],
+  ["16 LazyLoad", LazyLoad]
 ];
 
 const Empty = () => "";
