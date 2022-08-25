@@ -22,6 +22,8 @@ import ToggleButton from "./11/ToggleButton";
 import UseKeyPress from "./11/UseKeyPress";
 import UncontrolledForm from "./13/UncontrolledForm";
 import UseForm from "./13/UseForm";
+import UsersLayout from "./14/UsersLayout";
+import NiceModalExample from "./14/NiceModalExample";
 
 const routes = [
   ["01 Counter", Counter],
@@ -45,7 +47,9 @@ const routes = [
   ["11 ToggleButton", ToggleButton],
   ["11 UseKeyPress", UseKeyPress],
   ["13 UncontrolledForm", UncontrolledForm],
-  ["13 UseForm", UseForm]
+  ["13 UseForm", UseForm],
+  ["14 NiceModalExample", NiceModalExample],
+  ["14 UsersLayout", UsersLayout]
 ];
 
 const Empty = () => "";
