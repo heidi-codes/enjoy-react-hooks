@@ -18,6 +18,8 @@ import ArticleView from "./09/ArticleView";
 import UserList2 from "./10/UserList";
 import CounterRenderProps from "./10/CounterRenderProps";
 import ListWithMore from "./10/ListWithMore";
+import ToggleButton from "./11/ToggleButton";
+import UseKeyPress from "./11/UseKeyPress";
 
 const routes = [
   ["01 Counter", Counter],
@@ -37,7 +39,9 @@ const routes = [
   ["09 ArticleView", ArticleView],
   ["10 UserList2", UserList2],
   ["10 CounterRenderProps", CounterRenderProps],
-  ["10 ListWithMore", ListWithMore]
+  ["10 ListWithMore", ListWithMore],
+  ["11 ToggleButton", ToggleButton],
+  ["11 UseKeyPress", UseKeyPress]
 ];
 
 const Empty = () => "";
