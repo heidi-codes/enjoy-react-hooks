@@ -15,6 +15,9 @@ import PriceInput from "./08/PriceInput";
 import SearchBox from "./08/SearchBox";
 import FilterList from "./08/FilterList";
 import ArticleView from "./09/ArticleView";
+import UserList2 from "./10/UserList";
+import CounterRenderProps from "./10/CounterRenderProps";
+import ListWithMore from "./10/ListWithMore";
 
 const routes = [
   ["01 Counter", Counter],
@@ -31,7 +34,10 @@ const routes = [
   ["08 FilterList", FilterList],
   ["08 SearchBox", SearchBox],
   ["08 PriceInput", PriceInput],
-  ["09 ArticleView", ArticleView]
+  ["09 ArticleView", ArticleView],
+  ["10 UserList2", UserList2],
+  ["10 CounterRenderProps", CounterRenderProps],
+  ["10 ListWithMore", ListWithMore]
 ];
 
 const Empty = () => "";
