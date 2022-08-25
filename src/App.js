@@ -20,6 +20,8 @@ import CounterRenderProps from "./10/CounterRenderProps";
 import ListWithMore from "./10/ListWithMore";
 import ToggleButton from "./11/ToggleButton";
 import UseKeyPress from "./11/UseKeyPress";
+import UncontrolledForm from "./13/UncontrolledForm";
+import UseForm from "./13/UseForm";
 
 const routes = [
   ["01 Counter", Counter],
@@ -41,7 +43,9 @@ const routes = [
   ["10 CounterRenderProps", CounterRenderProps],
   ["10 ListWithMore", ListWithMore],
   ["11 ToggleButton", ToggleButton],
-  ["11 UseKeyPress", UseKeyPress]
+  ["11 UseKeyPress", UseKeyPress],
+  ["13 UncontrolledForm", UncontrolledForm],
+  ["13 UseForm", UseForm]
 ];
 
 const Empty = () => "";
