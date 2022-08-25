@@ -24,6 +24,10 @@ import UncontrolledForm from "./13/UncontrolledForm";
 import UseForm from "./13/UseForm";
 import UsersLayout from "./14/UsersLayout";
 import NiceModalExample from "./14/NiceModalExample";
+import MyRouter from "./15/MyRouter";
+import NestedRouting from "./15/NestedRouting";
+import TabsPage from "./15/TabsPage";
+import RouterAuth from "./15/RouterAuth";
 
 const routes = [
   ["01 Counter", Counter],
@@ -49,7 +53,11 @@ const routes = [
   ["13 UncontrolledForm", UncontrolledForm],
   ["13 UseForm", UseForm],
   ["14 NiceModalExample", NiceModalExample],
-  ["14 UsersLayout", UsersLayout]
+  ["14 UsersLayout", UsersLayout],
+  ["15 MyRouter", MyRouter],
+  ["15 NestedRouting", NestedRouting],
+  ["15 TabsPage", TabsPage, "/:activeTab?"],
+  ["15 RouterAuth", RouterAuth]
 ];
 
 const Empty = () => "";
