@@ -5,13 +5,21 @@ import UserList from "./01/UserList";
 import Timer from "./04/Timer";
 import SearchUserList from "./04/SearchUserList";
 import ThemeSwitch from "./04/ThemeSwitch";
+import UseCounter from "./06/UseCounter";
+import UseAsync from "./06/UseAsyncSample";
+import UseScroll from "./06/UseScroll";
+import BlogList from "./06/BlogList";
 
 const routes = [
   ["01 Counter", Counter],
   ["01 UserList", UserList],
   ["04 Timer", Timer],
   ["04 SearchUserList", SearchUserList],
-  ["04 ThemeSwitch", ThemeSwitch]
+  ["04 ThemeSwitch", ThemeSwitch],
+  ["06 UseCounter", UseCounter],
+  ["06 UseAsync", UseAsync],
+  ["06 UseScroll", UseScroll],
+  ["06 BlogList", BlogList]
 ];
 
 const Empty = () => "";
